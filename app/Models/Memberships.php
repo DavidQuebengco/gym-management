@@ -13,5 +13,6 @@ class Memberships extends Model
 
     protected $fillable = [
         'membership_type',
+        'membership_price',
     ];
 }

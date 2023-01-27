@@ -14,5 +14,9 @@ class Members extends Model
     protected $fillable = [
         'name',
         'email',
+        'membership_expiration',
+        'trainer_id',
+        'membership_id',
+
     ];
 }
